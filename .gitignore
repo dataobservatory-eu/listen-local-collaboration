@@ -1,3 +1,7 @@
+# The compiled book
+^_book
+^_book$
+
 # History files
 .Rhistory
 .Rapp.history

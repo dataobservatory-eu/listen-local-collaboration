@@ -5,5 +5,5 @@ Curators are the most important collaborators to make Listen Local human-centere
 Our music curators play an essential role in making sure that big data works for all, inlcuding self-released artists and independent labels. Their work facilitates the best human-human and human-computer interactions, and makes sure that machine learning algorithms do not learn from bad information, leading to bad recommendations, and unsuccessful artist placements and low valuation and appreciation for their music.
 
 **New curators**:
-[![FAQ](https://img.shields.io/badge/Developd%20by-Listen%20Local-blue.svg)(https://github.com/dataobservatory-eu/listen-local-collaboration/projects) Ask your question as a Github card on our repository (only web browser needed.)
-[![issues](https://img.shields.io/github/issues/dataobservatory-eu/listen-local-collaboration?label=open)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues) Check already asked question which are not incorporated in the manual yet.
+[![FAQ](https://img.shields.io/static/v1?label=FAQ&message=Ask%20a%20Question&color=4EC0E4)](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/)
+[![issues](https://img.shields.io/static/v1?label=FAQ&message=Check%20Open%20Questions%20First&color=DB001C)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open)
