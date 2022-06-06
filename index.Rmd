@@ -1,0 +1,41 @@
+--- 
+title: "Listen Local Collaboration Guide"
+author: "Daniel Antal, CFA"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+lof: yes
+classoption: openany, a4paper, oneside
+papersize: a4
+geometry: left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm
+bibliography:
+- book.bib
+biblio-style: apalike
+linestretch: 1.1
+urlcolor: blue
+linkcolor: blue
+link-citations: yes
+nocite: |
+  @R-bookdown, @R-ggplot2, @R-kntir, @puca_intangible_2019
+description: Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings.
+---
+
+# Executive Summary {-}
+
+Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings. As a project of the  Digital Music Observatory it aims to make big data work for small labels and self-released artists, and to make algorithms work for and not against them.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warnings=FALSE, out.width ='80%', fig.align='center')
+library(kableExtra); 
+library(knitr); library(ggplot2); library(scales); library(dplyr); library(tidyr)
+library(webshot)
+library(here)
+here::here()
+```
+
+```{r packages, include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown','kableExtra', 'webshot' ), 'packages.bib')
+```
+
