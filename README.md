@@ -1,5 +1,14 @@
 # README: Listen Local Collaboration Manual
 
+[![ListenLocal](https://img.shields.io/badge/Developd%20by-Listen%20Local-blue.svg)(https://music.dataobservatory.eu/usecase/listen-local/)
+[![DMO](https://img.shields.io/badge/Powered%20by-Digital%20Music%20Observatory-lightblue.svg)](https://music.dataobservatory.eu/)
+[![Github commits](https://img.shields.io/github/commit-activity/m/dataobservatory-eu/listen-local-collaboration)](https://github.com/dataobservatory-eu/listen-local-collaboration/)
+[![FAQ](https://img.shields.io/badge/Developd%20by-Listen%20Local-blue.svg)(https://github.com/dataobservatory-eu/listen-local-collaboration/projects)
+[![issues](https://img.shields.io/github/issues/dataobservatory-eu/listen-local-collaboration?label=open)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues)
+
+
+
+
 Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings. As a project of the  Digital Music Observatory it aims to make big data work for small labels and self-released artists, and to make algorithms work for and not against them.
 
 ## Folders
