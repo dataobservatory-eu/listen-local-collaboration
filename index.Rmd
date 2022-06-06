@@ -8,8 +8,7 @@ lof: yes
 classoption: openany, a4paper, oneside
 papersize: a4
 geometry: left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm
-bibliography:
-- antal.bib
+bibliography: antal.bib
 biblio-style: apalike
 linestretch: 1.1
 urlcolor: blue
@@ -17,20 +16,17 @@ linkcolor: blue
 link-citations: yes
 nocite: |
   @antal_promoting_slovak_2020-SK, @antal_promoting_slovak_2020
-description: Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings.
+description: Listen Local is an open collaboration for artists, fans, managers, developers
+  to provide alternatives to connect local audiences with local artists through locally
+  relevant music recommendations and findings.
 ---
 
-# Executive Summary {-}
+# Short Introduction {-}
 
 Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings. As a project of the  Digital Music Observatory it aims to make big data work for small labels and self-released artists, and to make algorithms work for and not against them.
 
-`r if (knitr::is_html_output()) '
-[![ListenLocal](https://img.shields.io/badge/Developd%20by-Listen%20Local-007CBB.svg)](https://music.dataobservatory.eu/usecase/listen-local/)
-[![DMO](https://img.shields.io/badge/Powered%20by-Digital%20Music%20Observatory-4EC0E4.svg)](https://music.dataobservatory.eu/)
-[![Github commits](https://img.shields.io/github/commit-activity/m/dataobservatory-eu/listen-local-collaboration)](https://github.com/dataobservatory-eu/listen-local-collaboration/)
-[![FAQ](https://img.shields.io/static/v1?label=FAQ&message=Ask%20a%20Question&color=4EC0E4)](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/)
-[![issues](https://img.shields.io/static/v1?label=FAQ&message=Check%20Open%20Questions%20First&color=DB001C)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open)
-'`
+This Collaboration Manual is created for the existing and future contributors of this project. You can download the latest version of the manual from [listen-local-collaboration.dataobservatory.eu](https://listen-local-collaboration.dataobservatory.eu/). The last authoritative copy of this manual (Version `r Sys.Date()`) is [doi.org/10.5281/zenodo.6617137](https://zenodo.org/record/6617137#.Yp4UAqhBzIU).
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warnings=FALSE, out.width ='80%', fig.align='center')
@@ -40,6 +36,19 @@ library(webshot)
 library(here)
 here::here()
 ```
+
+```{r startbadges, results='asis', echo=FALSE}
+if(knitr::is_html_output()) {  cat('[![ListenLocal](https://img.shields.io/badge/Developd%20by-Listen%20Local-007CBB.svg)](https://music.dataobservatory.eu/usecase/listen-local/)
+[![DMO](https://img.shields.io/badge/Powered%20by-Digital%20Music%20Observatory-4EC0E4.svg)](https://music.dataobservatory.eu/)
+[![Github commits](https://img.shields.io/github/commit-activity/m/dataobservatory-eu/listen-local-collaboration)](https://github.com/dataobservatory-eu/listen-local-collaboration/)
+[![FAQ](https://img.shields.io/static/v1?label=FAQ&message=Ask%20a%20Question&color=4EC0E4)](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/)
+[![issues](https://img.shields.io/static/v1?label=FAQ&message=Check%20Open%20Questions%20First&color=DB001C)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open)')
+} else{
+  cat("[Listen Local Project Page](https://music.dataobservatory.eu/usecase/listen-local/) - Powered by the [Digital Music Observatory](https://music.dataobservatory.eu/) [See the FAQ](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/) after [checking already open questions](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open)")
+}
+```
+
+
 
 ```{r packages, include=FALSE}
 # automatically create a bib database for R packages
@@ -53,8 +62,9 @@ All good music should find its audience. Local ecosystems, such as shops, events
 
 Listen Local facilitates the best human-human and human-computer interactions, and makes sure that machine learning algorithms do not learn from bad information, leading to bad recommendations, and unsuccessful artist placements and low valuation and appreciation for their music. 
 
-The Listen Local Databases are location-specific and subjective databases about artists and their works. Listen Local Slovakia contains artists and music references that are relevant in the context of Slovakia: the music is made in Slovakia, or the artists or music relates to the Slovak language and culture. Listen Local Gent is music relevant in the city of Gent. 
-- \@ref(writenin) [The Write-In Databases](#writein) contain only publicly and legally available information collected and organized by the Listen Local Collaboration with the oversight of local music curators. The write-in databases contains information that our automated systems with the oversight of our curators write into them. For example, the  Slovak Comprehensive Music Database contains music that our Slovak music curators subjectively think to be Slovak music in one way or another. Our curators use a sound and consistent set of criteria to write in music and artists into our databases, but they maintain their subjective and professional judgement.
+The Listen Local Databases are location-specific and subjective databases about artists and their works. Listen Local Slovakia contains artists and music references that are relevant in the context of Slovakia: the music is made in Slovakia, or the artists or music relates to the Slovak language and culture. Listen Local Gent is music relevant in the city of Gent.
+
+- \@ref(writein) [The Write-In Databases](#writein) contain only publicly and legally available information collected and organized by the Listen Local Collaboration with the oversight of local music curators. The write-in databases contains information that our automated systems with the oversight of our curators write into them. For example, the  Slovak Comprehensive Music Database contains music that our Slovak music curators subjectively think to be Slovak music in one way or another. Our curators use a sound and consistent set of criteria to write in music and artists into our databases, but they maintain their subjective and professional judgement.
 
 - \@ref(optin) [The Opt-In Databases](#optin) contain information that creator of the music provided about herself. The opt-in databases consist of two datasets: a closed and GDPR protected personal identification dataset and a public dataset that contains information released with the consent of the creator.  Any artists can opt into our databases pending curatorial approval.  (An artist can opt-in into the Slovak Comprehensive Database if he or she feels Slovak, pending the judgement of the curator that the inclusion of the artists will be relevant for music audiences and users looking for Slovak music.)  Any artist can opt-out from the personal dataset without curatorial approval.
 
@@ -69,6 +79,17 @@ Listen Local is a highly automated system that uses open-source algorithms for a
 
 - \@ref(curators) [Curators](#curators) are the most important collaborators to make Listen Local human-centered and ethical. They manage the write-in database and ensure that the automated systems collect and store correct information about artists and their music. To maintain ongoing data ownership of artists, they manage the opt-in and opt-out procedures for artists. 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/79286750/) Follow our LinkedIn Page and get in touch with us.
+```{r summaryendbadges, results='asis'}
+if(knitr::is_html_output()) {  cat('[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/79286750/) Follow our LinkedIn Page and get in touch with us.')
+cat('[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6617137.svg)](https://zenodo.org/record/6617137#.Yp4UAqhBzIU)')
+cat('[![FAQ](https://img.shields.io/static/v1?label=FAQ&message=Ask%20a%20Question&color=4EC0E4)](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/) Please take a look at our FAQ.')
+cat('[![issues](https://img.shields.io/static/v1?label=FAQ&message=Check%20Open%20Questions%20First&color=DB001C)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open) Please raise issues on Github.')
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6033771.svg)](https://doi.org/10.5281/zenodo.6033771)
+} else{
+  cat('[Follow us on LinkedIn]((https://www.linkedin.com/company/79286750/)')
+  cat("[DOI](https://zenodo.org/record/6617137#.Yp4UAqhBzIU)")
+}
+```
+
+
+

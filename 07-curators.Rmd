@@ -4,6 +4,34 @@ Curators are the most important collaborators to make Listen Local human-centere
 
 Our music curators play an essential role in making sure that big data works for all, inlcuding self-released artists and independent labels. Their work facilitates the best human-human and human-computer interactions, and makes sure that machine learning algorithms do not learn from bad information, leading to bad recommendations, and unsuccessful artist placements and low valuation and appreciation for their music.
 
-**New curators**:
-[![FAQ](https://img.shields.io/static/v1?label=FAQ&message=Ask%20a%20Question&color=4EC0E4)](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/)
-[![issues](https://img.shields.io/static/v1?label=FAQ&message=Check%20Open%20Questions%20First&color=DB001C)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open)
+## How to become a curator? {#applycurator}
+
+You can become a curator by invitation to the project, or by applying in a short letter. 
+
+**Your simplified resumé and profile picture.** Take a look at profile of [Dominika Semaňáková](https://music.dataobservatory.eu/author/dominika-sema%C5%88%C3%A1kov%C3%A1/), our first Listen Local curator. We will need the same information from you, and a profile picture that is at least 500px wide (jpg or png format.)
+
+**Links and Identifiers** You can optionally attach to your profile your LinkedIn profile, Instagram, Facebook, Twitter, YouTube channel, Spotify Creator account, or anything that you use as a music professional---select at least one where artists can get in touch with you. 
+Furtherore, for contributions to this project, we will need the following three identifiers from you:
+- [ORCiD](https://orcid.org/) Your ORCiD ID, which will enable us to unambigously attribute your contribution to Listen Local. ORCiD is used in open science and other publishing to unambigously attribute copyrights to a person. It takes a few minutes to register an account if you do not have it yet. We will attribute your name and ORCiD ID on all assets that you contribute to.
+- [Github account ID](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) Our project management dashboard and the FAQ is on Github, and all our source files will be versioned on Github. Github is the most popular open collaboration platform for open source software editors. If you do not write code, you will not contribute to our source files, but with a Github id you ask questions, take on tasks and report them ready on our project dashboard. All contributors will be added as a contributor to the [dataobservatory-eu/listen-local-collaboration](https://github.com/dataobservatory-eu/listen-local-collaboration) repository.
+- [Spotify Account Link](https://open.spotify.com/user/rx4xjay1368opqg2i7nabuo5c): You must have a free or premium account on Spotify. We will ask playlists initially on Spotify for ease of collaboration. If you do not use Spotify, you can create a free account for your Listen Local contributions.
+
+You must abide the [CONTRIBUTOR COVENANT CODE OF CONDUCT](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) pledging to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation. (See [translations](https://www.contributor-covenant.org/translations/) and the [Contributor Covenant FAQ](https://www.contributor-covenant.org/faq/).)
+
+**New curators**
+
+```{r curatorbadges, echo=FALSE, results='asis'}
+if(knitr::is_html_output()) {  cat('[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/79286750/) Follow our LinkedIn Page and get in touch with us.')
+cat('&nbsp;')
+cat('[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6617137.svg)](https://doi.org/10.5281/zenodo.6617137)')
+cat('[![FAQ](https://img.shields.io/static/v1?label=FAQ&message=Ask%20a%20Question&color=4EC0E4)](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/) Please take a look at our FAQ.')
+cat('[![issues](https://img.shields.io/static/v1?label=FAQ&message=Check%20Open%20Questions%20First&color=DB001C)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open) Please raise issues on Github.')
+
+} else{
+  cat("[See the FAQ](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/) after checking the already [open questions](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open)")
+}
+
+```
+
+
+

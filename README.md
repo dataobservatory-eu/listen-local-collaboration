@@ -1,8 +1,12 @@
 # README: Listen Local Collaboration Manual
 
-[![ListenLocal](https://img.shields.io/badge/Developd%20by-Listen%20Local-007CBB.svg)](https://music.dataobservatory.eu/usecase/listen-local/) Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings. As a project of the  Digital Music Observatory it aims to make big data work for small labels and self-released artists, and to make algorithms work for and not against them.
+[![ListenLocal](https://img.shields.io/badge/Developed%20by-Listen%20Local-007CBB.svg)](https://music.dataobservatory.eu/usecase/listen-local/) Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings. As a project of the  Digital Music Observatory it aims to make big data work for small labels and self-released artists, and to make algorithms work for and not against them.
 
 [![DMO](https://img.shields.io/badge/Powered%20by-Digital%20Music%20Observatory-4EC0E4.svg)](https://music.dataobservatory.eu/) A highly automated, open source, open data observatory concept that links public datasets in order to provide a comprehensive view of the European music industry. The Digital Music Observatory is an open collaboration project initated by Reprex in cooperation with its contributors.
+
+[![ListenLocalGuide](https://img.shields.io/badge/Download%20-Listen%20Local%20Collaboration%20Guide-007CBB.svg)](https://listen-local-collaboration.dataobservatory.eu/) You can download here the latest (development) version of the collaboration manual. For the latest authoritative and edited version check the Digital Music Observatory [here]().
+
+
 
 [![Github commits](https://img.shields.io/github/commit-activity/m/dataobservatory-eu/listen-local-collaboration)](https://github.com/dataobservatory-eu/listen-local-collaboration/)
 

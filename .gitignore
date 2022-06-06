@@ -1,5 +1,5 @@
 # The compiled book
-^_book
+^_book/
 ^_book$
 
 # History files

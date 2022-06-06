@@ -1,1 +1,13 @@
 # Frequently Asked Questions {.unnumbered #FAQ}
+
+```{r faqbadges, echo=FALSE, results='asis'}
+if(knitr::is_html_output()) {  
+cat('[![FAQ](https://img.shields.io/static/v1?label=FAQ&message=Ask%20a%20Question&color=4EC0E4)](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/) Please take a look at our FAQ.')
+cat('[![issues](https://img.shields.io/static/v1?label=FAQ&message=Check%20Open%20Questions%20First&color=DB001C)](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open) Please raise issues on Github.')
+
+} else{
+  cat("[See the FAQ](https://github.com/dataobservatory-eu/listen-local-collaboration/projects/) after [checking already open questions](https://github.com/dataobservatory-eu/listen-local-collaboration/issues?label=open)")
+}
+```
+
+You need a [Github account ID](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to write questions to the FAQ, or to contribute to our source files and assets. All contributors will be added as a contributor to the [dataobservatory-eu/listen-local-collaboration](https://github.com/dataobservatory-eu/listen-local-collaboration) repository.
