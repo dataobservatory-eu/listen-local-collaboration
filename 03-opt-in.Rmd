@@ -1,0 +1,45 @@
+# The Opt-in Databases {#optin}
+
+The opt-in databases contain information that creator of the music provided about herself. The opt-in databases consist of two datasets: a closed and GDPR protected personal identification dataset and a public dataset that contains information released with the consent of the creator.  Any artists can opt into our databases pending curatorial approval.  (An artist can opt-in into the Slovak Comprehensive Database if he or she feels Slovak, pending the judgement of the curator that the inclusion of the artists will be relevant for music audiences and users looking for Slovak music.)  
+
+Any artist can [opt-out](#output) from the personal dataset without curatorial approval. Special rules apply on [deceased](#deceased) artists.
+
+
+## Write-in: Getting Started with a new Listen Local Dataset
+
+1. Start with a Spotify playlist.  Add artists that are relevant to your playlist.  Please check out a starting playlist [Listen Local Utrecht](https://open.spotify.com/playlist/3wAbhZKBlHBvRHCqqn0Qeu).
+
+2. Each playlist should be organized according to a location (how?)
+
+3. Let Reprex's Listen Local system create the initial write-in database. 
+
+4. Review the database in Google Spreadsheet. 
+
+
+### How location matters? {#locationmatters}
+
+
+
+
+
+## Opt-out Procedure {#optout}
+
+Our opt-out procedure is always open for an artists who no longer wants to identify with one of our databases. 
+
+- Removal from the Opt-In Datasets requires no justification: these datasets contain information that fall under personal data protection rules.  
+- Removal from the Write-in Datasets requies a justification and pending curatorial decision. 
+
+To give a hypothetical---and rather unlikely---scenario, an artist may inform Listen Local that she no longer identifies with Slovakia and wants to be deleted from the Slovak Comprehensive Music Database. We will immediately remove her from the Opt-in Datasets. However, if her music is widely perceived by audiences, musicologist, or local content regulation as Slovak, we may keep her work in the write-in datasets, clearly stating in the biographical information that the arits do not identify 'Slovak'. 
+
+A more likely case is that an artist is featured in a city-specific dataset in Gent, but he moves to San Francisco.  The curator of the Gent dataset may feel that the artist left a large footprint in the music of Gent and list his work in Listen Local Gent, however, we may transfer the Opt-In (more personal data) to Listen Local SF and in the future keep including the work of the artists in San Francisco---especially new work made in the new city.
+
+## Deceased Artists {#deceased}
+
+The music work of deceased artists has valuable copyrights and neighboring rights for many decades ahead. The heir of a Slovak composer may have an interest in making sure that people looking for Slovak music find it in the future. The opt-in procedure is therefore open for the heirs of deceased artists, pending curatorial judgement about the suitability of including the artist and her work into any of our databases. 
+
+The opt-out procedure is open for the heirs if they can prove that the deceased artists explicitly wished to opt-out while still living. GDPR and many other rights do not apply for deceased people. Personal identification is a personal decision, and deceased people can no longer speak for themselves.
+
+
+
+
+

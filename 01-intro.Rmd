@@ -1,3 +1,19 @@
-# Theoretical and Empirical Challenges {#intro}
+# Listen Local {#listenlocal}
 
 Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings. As a project of the  Digital Music Observatory it aims to make big data work for small labels and self-released artists, and to make algorithms work for and not against them.
+
+## Listen Local Goals {#llgoals}
+
+Listen Local is a highly automated system that uses open-source algorithms for automation and open, trustworthy AI. We deploy these technologies to help humans to work with music, enjoy music and participate in music. Keeping in mind a basic principle of ethical, trustworthy AI, our system is always maintaining human agency and oversight. 
+
+
+## Listen Local Milestones {#history}
+
+- 2019: The Slovak Music Industry Report specifies the need for new instruments that help the diveristy of music recommendation and discovery in digital streaming.
+- 2020: The principles of the Listen Local system were outlined in the [Feasibility Study On Promoting Slovak Music In Slovakia & Abroad](https://music.dataobservatory.eu/publication/listen_local_2020/). This study was supported by the Slovak Arts Council and the state51 music group, and it is avaialble in both English and Slovak languages^[Slovak version: [@antal_promoting_slovak_2020-SK], English version: [@antal_promoting_slovak_2020].]. 
+- 2021: JUMP Music Market Accelerator
+- 2022: TAS
+- 2022. 06.03. MusicAIRE grant for Listen Local Lithuania managed by [MXF](#MXF).
+- 2022. 06.xx. Cooperation agreement with [Faniak](#faniak).
+
+

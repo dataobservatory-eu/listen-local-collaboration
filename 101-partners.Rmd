@@ -1,0 +1,25 @@
+## Digital Music Observatory {.unnumbered #dmo}
+
+## Reprex {.unnumbered #reprex}
+
+`Listen Local` is a project within the Digital Music Observatory.
+
+was a project initiated by [CEEMID](#CEEMID), a predecessor of Reprex. The first project of Listen Local was `Listen Local Slovakia` in partnership with [SOZA](#SOZA) and the _state51 music group_.
+
+## CEEMID {.unnumbered #ceemid}
+
+## SOZA {.unnumbered #soza}
+
+`Listen Local Slovakia` was a project initiated by [SOZA](#SOZA), [CEEMID](#CEEMID) and the state51 music group and supported by the Slovak Arts Council. SOZA is a founding partner of the Digital Music Observatory and its precedessor, [CEEMID](https://music.dataobservatory.eu/usecase/ceemid/).
+
+The **Slovak Performing and Mechanical Rights Society** (SOZA), executes international standards on copyright protection in the territory of the Slovak Republic. SOZA does not only  represent local authors in Slovakia, but also all foreign authors from those countries where CMOs concluded an Agreement on Reciprocal Representation. SOZA represents rightsholders--- authors, sub-authors, music arrangers and authors of written part of the work, i.e. lyrics, libretto, as well as publishers of those works. On their behalf SOZA monitors the use of musical works in the territory of the Slovak Republic, collects royalties and at the same time provides administrative, economic and legal services. 
+
+## MXF - Muzikos eksporto fondas {.unnumbered #mxf}
+
+`MXF` curates `Listen Local Lithuania`.  `MXF - Muzikos eksporto fondas` is a non-profit NGO with charitable status founded in 2015, working on projects to develop the music and nightlife sectors in Lithuania. MXF also runs [Vilnius Night Alliance](https://vna.lt/), an initiative to unite socially responsible venues, bookers, and artists under a code of ethics, representing their interests at local and national government level. This gives MXF access to a wide variety of businesses and musicians in Lithuania and high visibility in the entertainment and hospitality sectors. Vilnius Night Alliance is known worldwide as an innovator in campaigning for responsible and sustainable nightlife development.
+
+
+## Music Export Ukraine {.unnumbered #meu}
+
+
+## Artist Bridge {.unnumbered #artistbridge}

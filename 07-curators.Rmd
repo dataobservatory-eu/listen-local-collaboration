@@ -1,0 +1,5 @@
+# Curators {#curators}
+
+Curators are the most important collaborators to make Listen Local human-centered and ethical. They manage the write-in database and ensure that the automated systems collect and store correct information about artists and their music. To maintain ongoing data ownership of artists, they manage the opt-in and opt-out procedures for artists.
+
+Our music curators play an essential role in making sure that big data works for all, inlcuding self-released artists and independent labels. Their work facilitates the best human-human and human-computer interactions, and makes sure that machine learning algorithms do not learn from bad information, leading to bad recommendations, and unsuccessful artist placements and low valuation and appreciation for their music. 

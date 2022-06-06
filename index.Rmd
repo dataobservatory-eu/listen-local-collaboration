@@ -9,20 +9,24 @@ classoption: openany, a4paper, oneside
 papersize: a4
 geometry: left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm
 bibliography:
-- book.bib
+- antal.bib
 biblio-style: apalike
 linestretch: 1.1
 urlcolor: blue
 linkcolor: blue
 link-citations: yes
 nocite: |
-  @R-bookdown, @R-ggplot2, @R-kntir, @puca_intangible_2019
+  @antal_promoting_slovak_2020-SK, @antal_promoting_slovak_2020
 description: Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings.
 ---
 
 # Executive Summary {-}
 
 Listen Local is an open collaboration for artists, fans, managers, developers to provide alternatives to connect local audiences with local artists through locally relevant music recommendations and findings. As a project of the  Digital Music Observatory it aims to make big data work for small labels and self-released artists, and to make algorithms work for and not against them.
+
+
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, message=FALSE, warnings=FALSE, out.width ='80%', fig.align='center')
@@ -39,3 +43,28 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown','kableExtra', 'webshot' ), 'packages.bib')
 ```
 
+## Trustworthy Information {.unnumbered}
+
+All good music should find its audience. Local ecosystems, such as shops, events must find ways to play local music, introduce visitors to local artists, and make sure that some of the royalty payments (for example, paid by restaurants or bars) stays in the local music ecosystem. When somebody is shopping in Milan for fashion, in the shops some music from Milan and its regions should be played.
+
+Listen Local facilitates the best human-human and human-computer interactions, and makes sure that machine learning algorithms do not learn from bad information, leading to bad recommendations, and unsuccessful artist placements and low valuation and appreciation for their music. 
+
+The Listen Local Databases are location-specific and subjective databases about artists and their works. Listen Local Slovakia contains artists and music references that are relevant in the context of Slovakia: the music is made in Slovakia, or the artists or music relates to the Slovak language and culture. Listen Local Gent is music relevant in the city of Gent. 
+- \@ref(writenin) [The Write-In Databases](#writein) contain only publicly and legally available information collected and organized by the Listen Local Collaboration with the oversight of local music curators. The write-in databases contains information that our automated systems with the oversight of our curators write into them. For example, the  Slovak Comprehensive Music Database contains music that our Slovak music curators subjectively think to be Slovak music in one way or another. Our curators use a sound and consistent set of criteria to write in music and artists into our databases, but they maintain their subjective and professional judgement.
+
+- \@ref(optin) [The Opt-In Databases](#optin) contain information that creator of the music provided about herself. The opt-in databases consist of two datasets: a closed and GDPR protected personal identification dataset and a public dataset that contains information released with the consent of the creator.  Any artists can opt into our databases pending curatorial approval.  (An artist can opt-in into the Slovak Comprehensive Database if he or she feels Slovak, pending the judgement of the curator that the inclusion of the artists will be relevant for music audiences and users looking for Slovak music.)  Any artist can opt-out from the personal dataset without curatorial approval.
+
+- \@ref(optout) Any artist can [opt-out](#optput) from the personal dataset without curatorial approval. Special rules apply on [deceased](#deceased) artists---partly, because GDPR no longer applies, partly, because identity will be relevant for new generations. For example, the classical work of Franz Liszt lived and worked in the Austro-Hungarian Empire, and his work may be credibly claimed by the audiences and researchers of Slovak (he worked much in the current Slovak capital of Bratislava), Hungarian (his place of birth) or the music heritage of the city of Weimar in Germany. The inclusion of his work Weimar, Hungary (very likely) or Japan (unlikely) specific datasets requires the judgement of our curators.
+
+The principles of the Listen Local system were outlined in the [Feasibility Study On Promoting Slovak Music In Slovakia & Abroad](https://music.dataobservatory.eu/publication/listen_local_2020/). This study was supported by the Slovak Arts Council and the state51 music group, and it is avaialble in both English and Slovak languages^[Slovak version: [@antal_promoting_slovak_2020-SK], English version: [@antal_promoting_slovak_2020].]. 
+
+
+## Participate {.unnumbered}
+
+Listen Local is a highly automated system that uses open-source algorithms for automation and open, trustworthy AI. We deploy these technologies to help humans to work with music, enjoy music and participate in music. Keeping in mind a basic principle of ethical, trustworthy AI, our system is always maintaining human agency and oversight. 
+
+- \@ref(curators) [Curators](#curators) are the most important collaborators to make Listen Local human-centered and ethical. They manage the write-in database and ensure that the automated systems collect and store correct information about artists and their music. To maintain ongoing data ownership of artists, they manage the opt-in and opt-out procedures for artists. 
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/79286750/) Follow our LinkedIn Page and get in touch with us.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6033771.svg)](https://doi.org/10.5281/zenodo.6033771)
